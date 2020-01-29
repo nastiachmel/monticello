@@ -22,7 +22,6 @@
   font-weight: normal;
   src:url('../fonts/Medium/gotham-medium-webfont.woff');
   src: url('../fonts/Medium/gotham-medium-webfont.woff2');
-
 }
 
 @font-face{
@@ -234,7 +233,6 @@ h1, h2 {
 
 .block-social{
   display: flex;
-// margin-left: 85px;
 
   &__icon{
     width: 24px;
@@ -630,7 +628,7 @@ h1, h2 {
   background-size: cover;
   background-repeat: repeat;
   position: relative;
-  padding-bottom: 117px;//209
+  padding-bottom: 117px;
 
   &__title{
     font-family: 'GothamMedium';
@@ -640,9 +638,7 @@ h1, h2 {
     text-align: center;
     padding-top: 170px;
     text-decoration: none;
-    display: block;
-    // margin-bottom: 92px;
-    
+    display: block;    
   }
 }
 
@@ -655,7 +651,6 @@ h1, h2 {
 
   &__description{
     overflow: hidden;
-  //  width: 320px;
     line-height: 29px;
     word-spacing: -1px;
     font-family: 'Open Sans', sans-serif;
@@ -671,7 +666,6 @@ h1, h2 {
     margin-bottom: 20px;
     margin-left: -20px;
     margin-right: -20px;
-    // margin-top: -30px;
     padding-bottom: 239px;  
     
   }
@@ -754,9 +748,7 @@ h1, h2 {
     padding: 0 20px 0 20px;
     margin: 0 15px;
     padding-bottom: 0;
-    box-sizing: border-box;
-    // padding-right: 24px;
-  
+    box-sizing: border-box;  
   }
 
   .slick-arrow{
@@ -1237,10 +1229,6 @@ h1, h2 {
   .slide{
     height: 480px;
   }
-
-  // .modals{
-  //   margin: 0 10px 0 10px;
-  // }
 
   .menu__item--footer{
     padding-right: 15px;
